@@ -1,0 +1,473 @@
+.frame-icon {
+    height: 2.88rem;
+    width: 14.86rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .contact-us1,
+  .home {
+    position: relative;
+    font-weight: 600;
+  }
+  .contact-us1 {
+    white-space: nowrap;
+  }
+  .frame-parent,
+  .primary-frame {
+    display: flex;
+    flex-direction: row;
+  }
+  .primary-frame {
+    width: 13.44rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-23xl);
+  }
+  .frame-parent {
+    align-self: stretch;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-gray-400);
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-smi) var(--padding-27xl);
+    gap: var(--gap-xl);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .contact-us2 {
+    height: 3.88rem;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .call-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 1.38rem;
+    left: 1.38rem;
+  }
+  .call-email-frame {
+    width: 5rem;
+    height: 5rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.63rem;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .by-phone {
+    position: relative;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+  }
+  .n-i-t-c-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-12xs);
+    gap: var(--gap-base);
+  }
+  .campus-frame {
+    position: relative;
+    font-weight: 500;
+    color: var(--color-gray-100);
+    white-space: nowrap;
+  }
+  .location-frame {
+    height: 16.19rem;
+    width: 17.75rem;
+    border-radius: var(--br-xl);
+    border: 1px solid var(--color-gray-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-17xl) 4.69rem;
+    gap: var(--gap-5xl);
+    min-width: 17.88rem;
+  }
+  .pin-drop-icon {
+    height: 2.25rem;
+    width: 2.25rem;
+    position: relative;
+  }
+  .pin-drop-wrapper {
+    width: 5rem;
+    height: 5rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-mid) var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .find-us {
+    position: relative;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+  }
+  .frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-base);
+  }
+  .national-institute-of {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--color-gray-100);
+  }
+  .location-frame1 {
+    width: 17.81rem;
+    border-radius: var(--br-xl);
+    border: 1px solid var(--color-gray-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-17xl) var(--padding-mini);
+    gap: var(--gap-5xl);
+    min-width: 17.88rem;
+  }
+  .mail-icon {
+    height: 2.25rem;
+    width: 2.25rem;
+    position: relative;
+  }
+  .mail-wrapper {
+    width: 5rem;
+    height: 5rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-mid) var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .by-email {
+    position: relative;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-base);
+    gap: var(--gap-base);
+  }
+  .contactusnitcacin {
+    position: relative;
+    font-weight: 500;
+    color: var(--color-gray-100);
+    white-space: nowrap;
+  }
+  .location-frame2 {
+    height: 16.19rem;
+    width: 17.88rem;
+    border-radius: var(--br-xl);
+    border: 1px solid var(--color-gray-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-17xl) var(--padding-42xl);
+    gap: var(--gap-5xl);
+    min-width: 17.88rem;
+  }
+  .location-frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+  }
+  .contact-us-parent {
+    width: 67.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-29xl);
+    min-height: 24.88rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 3rem;
+    color: var(--color-black);
+    font-family: var(--font-ibm-plex-serif);
+  }
+  .image-8-icon {
+    height: 6.47rem;
+    width: 5.31rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .frame-icon1 {
+    height: 2.88rem;
+    width: 14.86rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .rectangle-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-23xl);
+    max-width: 100%;
+  }
+  .image-5-icon {
+    width: 1.56rem;
+    height: 1.56rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .four-frames {
+    cursor: pointer;
+    border: 3px solid var(--color-dimgray);
+    padding: 0;
+    background-color: var(--color-gray-300);
+    height: 3.13rem;
+    width: 3.13rem;
+    border-radius: var(--br-31xl);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-3-icon {
+    width: 1.56rem;
+    height: 1.44rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .four-frames1 {
+    cursor: pointer;
+    border: 3px solid var(--color-dimgray);
+    padding: 0;
+    background-color: var(--color-gray-300);
+    height: 3.13rem;
+    width: 3.13rem;
+    border-radius: var(--br-31xl);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-6-icon {
+    width: 1.75rem;
+    height: 1.27rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .four-frames2 {
+    height: 3.13rem;
+    width: 3.13rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gray-300);
+    border: 3px solid var(--color-dimgray);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-7-icon {
+    width: 1.88rem;
+    height: 1.88rem;
+    position: relative;
+    object-fit: cover;
+  }
+  .four-frames3,
+  .framed-images {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .four-frames3 {
+    cursor: pointer;
+    border: 3px solid var(--color-dimgray);
+    padding: 0;
+    background-color: var(--color-gray-300);
+    height: 3.13rem;
+    width: 3.13rem;
+    border-radius: var(--br-31xl);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .framed-images {
+    width: 24.38rem;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-xl);
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .calicut-mukkam-road,
+  .kerala-673601,
+  .national-institute-of1 {
+    position: relative;
+  }
+  .address-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-sm);
+  }
+  .contact-us,
+  .image-frame,
+  .institute-name-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .institute-name-frame {
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+    max-width: 100%;
+  }
+  .contact-us,
+  .image-frame {
+    background-color: var(--color-white);
+    overflow: hidden;
+    justify-content: flex-start;
+  }
+  .image-frame {
+    align-self: stretch;
+    border-top: 1px solid var(--color-gray-400);
+    padding: var(--padding-23xl) 0;
+    gap: var(--gap-23xl);
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .contact-us {
+    width: 100%;
+    position: relative;
+    padding: 0 0 var(--padding-12xs);
+    gap: var(--gap-116xl);
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 925px) {
+    .frame-parent {
+      padding-left: var(--padding-4xl);
+      padding-right: var(--padding-4xl);
+      box-sizing: border-box;
+    }
+    .contact-us2 {
+      font-size: var(--font-size-19xl);
+    }
+    .location-frame,
+    .location-frame1,
+    .location-frame2 {
+      flex: 1;
+    }
+    .location-frame-parent {
+      flex-wrap: wrap;
+    }
+    .contact-us {
+      gap: var(--gap-48xl);
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .contact-us-parent {
+      gap: var(--gap-5xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .primary-frame {
+      display: none;
+    }
+    .contact-us2 {
+      font-size: 1.81rem;
+    }
+    .location-frame,
+    .location-frame2 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .image-8-icon {
+      flex: 1;
+    }
+    .rectangle-frame {
+      flex-wrap: wrap;
+      gap: var(--gap-2xl);
+    }
+    .framed-images {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .image-frame {
+      gap: var(--gap-2xl);
+      padding-top: var(--padding-8xl);
+      padding-bottom: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .contact-us {
+      gap: var(--gap-15xl);
+    }
+  }
+  
